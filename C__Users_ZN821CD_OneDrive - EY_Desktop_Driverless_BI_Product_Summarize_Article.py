@@ -11,7 +11,7 @@ import os
 import streamlit as st
 
 # Set the GPT-3 API key
-openai.api_key = st.secrets["pass"]
+openai.api_key = st.secrets["demo_key"]
 #os.environ["OPENAI_API_KEY"] = "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"
 
 # Read the text of the article from a file
